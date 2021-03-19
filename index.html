@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JsOn Merger</title>
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div style="color: white;background-color: blue" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <br>
+            <h1 class="display-4">Welcome to the <b>JsOn Merger</b></h1>
+            <h1>Design by the IBM Automation Team</h1>
+            <p class="lead">With this tool you can merge json files in one file json to be used whatever you like.</p>
+            <br>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row form-group">
+            <div class="col-6 text-center">
+                <label style="font-size: 25px">Json 1</label>
+                <textarea class="form-control" name="json1" id="json1" cols="30" rows="10"></textarea>
+            </div>
+            <div class="col-6 text-center">
+                <label style="font-size: 25px">Json 2</label>
+                <textarea class="form-control" name="json2" id="json2" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <hr class="my-3" />
+
+        <div class="row text-center">
+            <div class="col-12">
+                <button id="btn-merge" style="background-color: blue" class="btn btn-primary" onclick="merge()">Merge JSON</button>
+            </div>
+        </div>
+
+        <hr class="my-3" />
+
+        <div class="row form-group">
+            <div class="col-12 text-center">
+                <label style="font-size: 25px">Output Json</label>
+                <textarea class="form-control" name="output" id="output" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br>
+</body>
+
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Designed by Oliver Garcia 2021 MX
+    </div>
+</footer>
+
+</html>
